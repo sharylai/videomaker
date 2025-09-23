@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useEffect } from 'react';
-import { Header } from './components/Header';
+import Header from './components/Header';
 import { InputForm } from './components/InputForm';
 import { ScriptDisplay } from './components/ScriptDisplay';
 import { Loader } from './components/Loader';
