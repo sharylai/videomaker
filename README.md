@@ -1,21 +1,20 @@
-# 🎬 Videomaker
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Frontend app using **Gemini API** to help people quickly create AI-powered storyboards for films.  
-Deployed with **Cloudflare Pages**.
+# Run and deploy your AI Studio app
 
----
+This contains everything you need to run your app locally.
 
-## 🚀 Features
-- ✨ Connects with Google Gemini API
-- 🖼️ Generate storyboards or text outputs
-- 🌐 Deploys automatically via Cloudflare Pages
-- 🔑 Secure API key management using environment variables
+View your app in AI Studio: https://ai.studio/apps/drive/1iAtRPMYuHYz1ZUZ5tZYLisX2xcEWpGrF
 
----
+## Run Locally
 
-## 📦 Installation (Local Development)
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/sharylai/videomaker.git
-   cd videomaker
+**Prerequisites:**  Node.js
 
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

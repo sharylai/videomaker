@@ -1,0 +1,5 @@
+{
+  "name": "AI Video Script Generator",
+  "description": "An application that generates comprehensive video scripts, including storyboards, voiceovers, and prompts for AI image and video generation, based on a user-provided topic.",
+  "requestFramePermissions": []
+}
